@@ -5,39 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>OmskScream github page</title>
-    <link rel="stylesheet" href="css/bijou.min.css">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="css/gumby.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
 </head>
-<body>
-<div class="navbar fixed">
-    <div class="container">
-        <h4 class="pull-left">OmskScream</h4>
-        <ul class="pull-right">
-            <li><a href="https://github.com/omskscream">My github page</a></li>
-        </ul>
+<body class="metro">
+<div class="row navi">
+    <ul class="eight columns">
+        <li class="two columns"><a href="" onclick="return false;" style="cursor: default">OmskScream</a></li>
+        <li class="two columns push_two"><a href="https://twitter.com/omsk_scream">follow @omsk_scream</a></li>
+        <li class="two columns"><a href="https://github.com/omskscream">link to GitHub</a></li>
+    </ul>
+</div>
+<div class="row">
+    <div class="centered eight columns">
+        <div class="row">
+            <div class="centered four columns">
+                <h3>Hello and welcome!</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="eight columns">
+                <p>If you find here something interesting, you may bravely pull it.</p>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="row">
+            <div class="eight columns">
+                <h4>My projects:</h4>
+                <ul>
+                    <li><a class="two columns" href="https://github.com/omskscream/sked">Sked</a> <p class="six columns">Sked is a mobile(android) app for easy schedule access for students. Planning to write server part for data backup</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="row">
+            <div class="two columns">
+                <div class="medium primary btn">
+                    <button id="showBtn">Show doge</button>
+                </div>
+            </div>
+            <div class="five columns push_one" style="display: none;" id="dogeDiv">
+                <img  id="dogeImg" src="http://www.noodlytime.com/img/a0126590_22305352.jpg">
+            </div>
+        </div>
     </div>
 </div>
-    <div class="container">
-          <div class="main-frame">
-              <div class="banner twelve">
-                <h2>Hello!<br>Glad to see you here.</h2>
-              </div>
-              <div class="divider"></div>
-              <div class="twelve">
-                  <div class="six pull-left">
-                      <p>
-                          Welcome to my github page! If you find here something interesting, you may bravely pull it.
-                      </p>
-                  </div>
-                  <div class="six pull-right">
-                      <button id="showBtn" class="button primary small">Show doge</button>
-                  </div>
-              </div>
-              <div class="six banner" style="display: none;" id="dogeDiv">
-                  <img id="dogeImg" src="http://www.noodlytime.com/img/a0126590_22305352.jpg">
-              </div>
-          </div>
-    </div>
 </body>
 </html>
