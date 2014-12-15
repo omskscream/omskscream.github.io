@@ -5,11 +5,11 @@ window.onload = function() {
     btn.onclick = function() {
         if (!dogeIsShown) {
             btn.innerHTML = 'Hide doge';
-            dogeDiv.style.display = 'block';
+            dogeDiv.classList.remove('hidden');
             dogeIsShown = !dogeIsShown;
         } else {
             btn.innerHTML = 'Show doge';
-            dogeDiv.style.display = 'none';
+            dogeDiv.classList.add('hidden');
             dogeIsShown = !dogeIsShown;
         }
     }
